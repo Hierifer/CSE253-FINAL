@@ -7,7 +7,7 @@ This project combines convolutional network and CTC to recognize the sequence of
 * **Zijia Chen** - *Initial work* - Email: zic138@eng.ucsd.edu
 
 ## Getting Started
-The project needs Tensorflow. Thus, your machine needs to install Tensorflow and cuda (if you want to run on your GPU). This repository only load a few image data from Kaggle --- https://www.kaggle.com/xainano/handwrittenmathsymbols. You supposes to download more data images on the data folders. For we only tested on 0-9,+,-,times,div,=, if you want to test more, please change the variable "alphabet" in "ctc_tensorflow_multidata_example.py".
+The project needs Tensorflow. Thus, your machine needs to install Tensorflow and cuda (if you want to run on your GPU). This repository only load a few image data from Kaggle --- https://www.kaggle.com/xainano/handwrittenmathsymbols. You supposes to download more data images on the data folders. For we only tested on "0-9,+,-,times,div,=", if you want to test more, please change the variable "alphabet" in "ctc_tensorflow_multidata_example.py".
 
 ## Running the demo
 Run by "ctc_tensorflow_multidata_example.py"
